@@ -9,15 +9,26 @@ body{
   margin: auto;
 }
 
-header{
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header, footer{
   height: 80px;
-  margin: 20px 0;
+}
+
+header{
   background-color: #e579e6;
 }
 
+main{
+  margin: 20px 0;
+}
+
+
 footer{
-  height: 80px;
-  margin: 10px 0;
   background-color: #8801fe;
 }
 
@@ -31,15 +42,14 @@ aside, section{
   background-color: #e1d67a;
 }
 
-.box-main{
-  min-height: 400px;
+.box-main{;
   background-color: #abcfe7;
   margin-top: 40px;
 }
 
 aside{
+  min-height: 400px;
   width: 20%;
-  min-height: 320px;
   border-top: 10px solid #0685f8;
   border-bottom: 10px solid #0685f8;
 
@@ -47,7 +57,6 @@ aside{
 
 section{
   width: 60%;
-  min-height: 320px;
   border: 10px solid #0685f8;
-
+  min-height: 400px;
 }
