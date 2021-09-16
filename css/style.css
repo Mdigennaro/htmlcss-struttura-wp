@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 75%;
+  margin: auto;
+}
+
+header{
+  height: 80px;
+  margin: 20px 0;
+  background-color: #e579e6;
+}
+
+aside, section{
+  float: left;
+  margin-top: 20px;
+}
+
+.jumbotron{
+  min-height: 300px;
+  background-color: #e1d67a;
+}
+
+.box-main{
+  min-height: 400px;
+  background-color: #abcfe7;
+  margin: 20px 0;
+}
+
+aside{
+  width: 20%;
+  min-height: 380px;
+  border: 2%;
+  border-color: #0685f8;
+}
+
+section{
+
+}
