@@ -15,9 +15,15 @@ header{
   background-color: #e579e6;
 }
 
+footer{
+  height: 80px;
+  margin: 10px 0;
+  background-color: #8801fe;
+}
+
 aside, section{
   float: left;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .jumbotron{
@@ -28,16 +34,20 @@ aside, section{
 .box-main{
   min-height: 400px;
   background-color: #abcfe7;
-  margin: 20px 0;
+  margin-top: 40px;
 }
 
 aside{
   width: 20%;
-  min-height: 380px;
-  border: 2%;
-  border-color: #0685f8;
+  min-height: 320px;
+  border-top: 10px solid #0685f8;
+  border-bottom: 10px solid #0685f8;
+
 }
 
 section{
+  width: 60%;
+  min-height: 320px;
+  border: 10px solid #0685f8;
 
 }
